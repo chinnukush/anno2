@@ -45,8 +45,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "vijay")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'sahasa')
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
-MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), False) # Type True For Turn On MULTIPLE DB FUNTION 
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://anikush8310:hr62FDk6kCMlFpZv@cluster0.wrau1j0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "False"), False) # Type True For Turn On MULTIPLE DB FUNTION 
+DATABASE_URI2 = environ.get('DATABASE_URI2', "")
 
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+_kU_e_VpRp80Nzc1')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+W6H8sCxri9MzYzQ1')
