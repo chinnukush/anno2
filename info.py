@@ -40,7 +40,7 @@ REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001629003283') #Support Chat Id
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://anikush8310:a0dTYntMqgRNf39e@cluster0.szgiyw7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #MongoDB Url
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://anikush8310:A6B6HNhCMEtmdGcp@cluster0.ia1r4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") #MongoDB Url
 DATABASE_NAME = environ.get('DATABASE_NAME', "vijay")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'sahasa')
 
